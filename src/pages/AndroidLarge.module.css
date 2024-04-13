@@ -1,0 +1,132 @@
+.suggestionsForYou {
+  width: 197px;
+  height: 27px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.cardioFor20,
+.greatHobby,
+.minutesOnA {
+  margin: 0;
+}
+.text {
+  height: 53px;
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+}
+.textWrapper {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 31px var(--padding-sm);
+}
+.text1 {
+  height: 53px;
+  flex: 1;
+  position: relative;
+  line-height: 17px;
+  font-weight: 600;
+  display: inline-block;
+}
+.textContainer {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-6xs) var(--padding-18xl);
+}
+.frameContainer,
+.frameGroup,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  gap: 31px;
+}
+.frameContainer {
+  width: 275px;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-200);
+  font-family: var(--font-inter);
+}
+.stayUpdatedWith {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.suggestionsForYouParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.androidLarge3Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 22px 0 23px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+.androidLarge3,
+.frameSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameSection {
+  align-self: stretch;
+}
+.androidLarge3 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  gap: var(--gap-5xs);
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,516 @@
+.time {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.17px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.action {
+  width: 55.9px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.iconMobileSignal,
+.wifiIcon {
+  height: 12px;
+  width: 18px;
+  position: relative;
+}
+.wifiIcon {
+  height: 7.8px;
+  width: 11.3px;
+  display: none;
+}
+.statusbarBatteryIcon {
+  align-self: stretch;
+  width: 27.4px;
+  position: relative;
+  max-height: 100%;
+  min-height: 13px;
+}
+.right {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rightWrapper {
+  width: 49.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.statusBarIosIphone {
+  align-self: stretch;
+  backdrop-filter: var(--frosted-glass);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-smi) var(--padding-18xl) var(--padding-smi)
+    var(--padding-11xl);
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.vectorIcon {
+  height: 10.7px;
+  width: 12px;
+  position: relative;
+}
+.store1 {
+  align-self: stretch;
+  position: relative;
+  white-space: nowrap;
+}
+.vectorParent {
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.chevronDownIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 16px;
+}
+.frameParent {
+  width: 96px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--brand-color-secondary-color-tint-1);
+  box-sizing: border-box;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-6xs);
+  gap: var(--gap-5xs);
+}
+.wrapperGroup1244830185Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  transform: scale(2.243);
+}
+.wrapperGroup1244830185 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personIcon {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+}
+.wrapperGroup1244830185Parent {
+  height: 28px;
+  width: 28px;
+  position: relative;
+}
+.balnce1 {
+  letter-spacing: -0.02em;
+}
+.span {
+  letter-spacing: -0.11em;
+}
+.balnce {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 115%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 86px;
+  white-space: nowrap;
+}
+.frameContainer,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.walletCashIcon {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  transform: scale(2.243);
+}
+.wrapperWalletCash {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frameGroup {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.topNav,
+.topNavInner {
+  display: flex;
+  box-sizing: border-box;
+}
+.topNavInner {
+  align-self: stretch;
+  height: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-20xl) 0 var(--padding-24xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gainsboro-100);
+}
+.topNav {
+  margin-left: -114px;
+  width: 390px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background: linear-gradient(0deg, #08080c, #1b1b34), #fbfbfb;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  gap: var(--gap-7xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 241%;
+  flex-shrink: 0;
+}
+.topNavBar,
+.topNavBarChild {
+  align-self: stretch;
+  max-width: 100%;
+}
+.topNavBarChild {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.topNavBar {
+  height: 279px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 99px;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.age19,
+.johnDoe {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.johnDoeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.asCash,
+.walletPoints {
+  margin: 0;
+}
+.walletPointsContainer {
+  align-self: stretch;
+  height: 69px;
+  position: relative;
+  font-weight: 800;
+  color: #edfd35;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--color-cornflowerblue);
+  text-align: center;
+}
+.loginWrapper {
+  flex: 1;
+  z-index: 1;
+}
+.groupButton,
+.groupDiv,
+.loginWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.groupDiv {
+  flex: 1;
+  padding: var(--padding-mini) var(--padding-6xs);
+  position: relative;
+}
+.groupButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  z-index: 1;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--color-cornflowerblue);
+  text-align: center;
+}
+.loginContainer {
+  flex: 1;
+  z-index: 1;
+}
+.frameParent1,
+.frameWrapper2,
+.loginContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  padding: var(--padding-mini) var(--padding-6xs);
+  position: relative;
+}
+.frameWrapper2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  z-index: 1;
+}
+.frameInner {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-29xl);
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.login2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: -0.05em;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--color-cornflowerblue);
+  text-align: center;
+}
+.loginFrame {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  z-index: 1;
+}
+.frameParent2,
+.frameWrapper3,
+.loginFrame {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-mini) var(--padding-6xs);
+  position: relative;
+}
+.frameWrapper3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  z-index: 1;
+}
+.frameWrapper1,
+.frameWrapper3,
+.instanceParent {
+  display: flex;
+  align-items: flex-start;
+}
+.instanceParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-7xs);
+}
+.logout {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.05em;
+  font-weight: 800;
+}
+.frameDiv,
+.logoutWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logoutWrapper {
+  flex: 1;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameDiv {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-smi);
+}
+.androidLarge12,
+.frameMain {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameMain {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  align-items: flex-end;
+  padding: 55px 26px 79px;
+  gap: 36px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: #894d40;
+  font-family: var(--font-manrope);
+}
+.androidLarge12 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-gray-400);
+  align-items: flex-start;
+  padding: 0 0 521px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--brand-color-secondary-color-tint-1);
+  font-family: var(--font-inter);
+}

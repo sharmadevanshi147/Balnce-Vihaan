@@ -1,0 +1,50 @@
+.stayUpdatedWith {
+  align-self: stretch;
+  height: 27px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.androidLarge6,
+.frameParent,
+.stayUpdatedWithYourFriendParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.androidLarge6,
+.stayUpdatedWithYourFriendParent {
+  box-sizing: border-box;
+}
+.stayUpdatedWithYourFriendParent {
+  align-self: stretch;
+  height: 685px;
+  padding: 0 0 658px;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+.androidLarge6 {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-gray-400);
+  overflow: hidden;
+  padding: 0 var(--padding-6xl);
+  gap: var(--gap-2xs);
+  line-height: normal;
+  letter-spacing: normal;
+}

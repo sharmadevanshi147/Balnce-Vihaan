@@ -1,0 +1,448 @@
+.frameChild {
+  height: 12px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-mediumpurple);
+}
+.rectangleWrapper {
+  margin-top: -32px;
+  width: 143px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xl);
+  box-sizing: border-box;
+}
+.iconFrame,
+.timerIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.timerIcon {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-100);
+}
+.iconFrame {
+  z-index: 1;
+  object-fit: contain;
+  left: 4px;
+  transform: scale(2.051);
+}
+.wrapperIconFrame {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  width: 12.3px;
+  height: 11.7px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timerIconParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-10xs);
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameWrapper2,
+.groupDiv {
+  flex: 1;
+  flex-direction: row;
+}
+.frameDiv,
+.frameWrapper1,
+.frameWrapper2,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameDiv {
+  margin-left: -61px;
+  width: 54px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-xs);
+}
+.frameItem {
+  height: 45px;
+  width: 45px;
+  position: relative;
+}
+.frameWrapper6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 var(--padding-6xs);
+}
+.friends {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.frameWrapper5,
+.userUsersGroup {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameWrapper5 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.userUsersGroup {
+  height: 24px;
+  width: 24px;
+  top: 11px;
+  left: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent2,
+.frameWrapper4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  align-self: stretch;
+  height: 71px;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameWrapper4 {
+  width: 64px;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frameInner {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.financewalletIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: 7px;
+  z-index: 1;
+}
+.financeWallet,
+.frameParent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent5 {
+  position: relative;
+}
+.financeWallet {
+  padding: 0 var(--padding-6xs);
+}
+.rewards {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.financeWalletParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameWrapper8,
+.generalCategory1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameWrapper8 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.generalCategory1 {
+  height: 22px;
+  width: 21px;
+  top: 10px;
+  left: 17px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent4,
+.frameWrapper7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent4 {
+  align-self: stretch;
+  height: 71px;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.frameWrapper7 {
+  width: 64px;
+  flex-direction: column;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.groupIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.financewalletIcon1 {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: 7px;
+  z-index: 1;
+}
+.financeWallet1,
+.frameParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  position: relative;
+}
+.financeWallet1 {
+  padding: 0 var(--padding-6xs);
+}
+.offers {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.financeWalletGroup,
+.icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.financeWalletGroup {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  height: 100%;
+}
+.icon {
+  height: 19.72%;
+  width: 37.04%;
+  top: 18.31%;
+  right: 31.48%;
+  bottom: 61.97%;
+  left: 31.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.analyticsBox,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.analyticsBox {
+  height: 71px;
+  width: 54px;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.frameContainer {
+  width: 286px;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+}
+.analyticsBarChild {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.analyticsBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.analytics {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 54px;
+}
+.analyticsBarParent,
+.friendProfileInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.analyticsBarParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.friendProfileInner {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  height: 100%;
+}
+.friendProfileChild {
+  height: 21.13%;
+  width: 33.33%;
+  position: absolute;
+  margin: 0 !important;
+  top: 16.9%;
+  right: 33.33%;
+  bottom: 61.97%;
+  left: 33.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.friendProfile {
+  height: 71px;
+  width: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 1;
+  margin-left: -30px;
+}
+.frameGroup {
+  row-gap: 20px;
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  height: 107px;
+  margin: 0 !important;
+  position: absolute;
+  right: -36px;
+  bottom: 54px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-9xl) var(--padding-mini) var(--padding-5xs)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 306px) {
+  .friendProfile {
+    margin-left: 0;
+  }
+}

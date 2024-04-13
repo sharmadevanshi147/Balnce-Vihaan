@@ -1,0 +1,443 @@
+.frameChild {
+  height: 12px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-mediumpurple);
+}
+.rectangleWrapper {
+  margin-top: -28px;
+  width: 191px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl);
+  box-sizing: border-box;
+}
+.frameItem,
+.iconFrame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.frameItem {
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-100);
+}
+.iconFrame {
+  z-index: 1;
+  object-fit: contain;
+  left: 4px;
+  transform: scale(2.051);
+}
+.wrapperIconFrame {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  width: 12.3px;
+  height: 11.7px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipseParent {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.financeWallet {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 var(--padding-10xs);
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+}
+.financeWalletParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameWrapper4,
+.groupDiv {
+  flex: 1;
+  flex-direction: row;
+}
+.frameWrapper2,
+.frameWrapper3,
+.frameWrapper4,
+.groupDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameWrapper2 {
+  margin-left: -60px;
+  width: 54px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.frameInner {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.frameWrapper6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.friends {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameWrapper5,
+.userUsersGroup {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameWrapper5 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.userUsersGroup {
+  height: 24px;
+  width: 24px;
+  top: 8px;
+  left: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent2 {
+  height: 71px;
+  width: 54px;
+  position: relative;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-smi);
+}
+.frameDiv,
+.frameParent1,
+.frameParent2,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  width: 144px;
+  padding: 0 var(--padding-26xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.frameDiv,
+.frameWrapper1 {
+  flex: 1;
+}
+.groupIcon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.financewalletIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: 7px;
+  z-index: 1;
+}
+.frameParent6,
+.frameWrapper8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  position: relative;
+}
+.frameWrapper8 {
+  padding: 0 var(--padding-6xs);
+}
+.rewards {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameWrapper7,
+.generalCategory1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameWrapper7 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.generalCategory1 {
+  height: 22px;
+  width: 21px;
+  top: 10px;
+  left: 17px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent4 {
+  height: 71px;
+  width: 54px;
+  flex-direction: row;
+  position: relative;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -23px;
+  font-size: var(--font-size-smi);
+}
+.frameContainer,
+.frameParent4,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+  font-size: var(--font-size-xs);
+}
+.frameChild1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.financewalletIcon1 {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  right: 7px;
+  z-index: 1;
+}
+.frameParent9,
+.frameWrapper9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent9 {
+  position: relative;
+}
+.frameWrapper9 {
+  padding: 0 var(--padding-6xs);
+}
+.offers {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent8,
+.icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameParent8 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  height: 100%;
+}
+.icon {
+  height: 19.72%;
+  width: 37.04%;
+  top: 18.31%;
+  right: 31.48%;
+  bottom: 61.97%;
+  left: 31.48%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 2;
+}
+.frameParent7 {
+  height: 71px;
+  width: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  color: var(--color-white);
+}
+.frameChild2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+}
+.frameWrapper11 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.analytics {
+  align-self: stretch;
+  height: 24px;
+  position: relative;
+  letter-spacing: -0.03em;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 54px;
+}
+.frameParent11 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameChild3,
+.frameWrapper10 {
+  position: absolute;
+  margin: 0 !important;
+}
+.frameWrapper10 {
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+.frameChild3 {
+  height: 21.13%;
+  width: 33.33%;
+  top: 16.9%;
+  right: 33.33%;
+  bottom: 61.97%;
+  left: 33.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.frameParent10 {
+  height: 71px;
+  width: 54px;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameGroup,
+.frameParent,
+.frameParent10 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 313px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.frameParent {
+  align-self: stretch;
+  height: 107px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-5xl) var(--padding-2xs) var(--padding-4xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  z-index: 1;
+  margin-top: -22px;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslateblue-200);
+  font-family: var(--font-outfit);
+}

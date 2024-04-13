@@ -1,0 +1,79 @@
+.frameChild {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ellipseWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.janeDoe,
+.succcessfullyManagedTo {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.janeDoe {
+  width: 197px;
+  height: 27px;
+  font-weight: 800;
+  z-index: 1;
+}
+.succcessfullyManagedTo {
+  margin-top: -3px;
+  height: 48px;
+  flex: 1;
+  line-height: 19px;
+  font-weight: 500;
+}
+.friendCircle,
+.janeActivity {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.janeActivity {
+  align-self: stretch;
+  height: 45px;
+  flex-direction: row;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
+.friendCircle {
+  flex: 1;
+  flex-direction: column;
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-6xs) var(--padding-5xs)
+    var(--padding-sm);
+  gap: var(--gap-mid);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-9xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
