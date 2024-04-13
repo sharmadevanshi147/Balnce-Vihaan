@@ -8,4 +8,5 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
   4) figma link: https://www.figma.com/file/2YKaX76uI8dOQxJvIVWqZa/Balnce?type=design&node-id=0%3A1&mode=design&t=y4psSAj3dqbQxZk3-1
+  5) Youtube Link: https://youtube.com/shorts/TmnkXwE8Fbo?si=9tjTWaKXrvIZIvlw
   
